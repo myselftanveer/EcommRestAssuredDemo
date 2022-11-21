@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.342" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Practice\EcommRestAssured\target\test-classes;D:\Practice\EcommRestAssured\target\classes;C:\Users\Tanveer Shaikh\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tanveer Shaikh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tanveer Shaikh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.1\jackson-databind-2.13.4.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Tanveer Shaikh\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tanveer Shaikh\AppData\Local\Temp\surefire4101556644843998253\surefirebooter-20221121142158882_3.jar C:\Users\Tanveer Shaikh\AppData\Local\Temp\surefire4101556644843998253 2022-11-21T14-21-58_311-jvmRun1 surefire-20221121142158882_1tmp surefire_0-20221121142158882_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Practice\EcommRestAssured\target\test-classes;D:\Practice\EcommRestAssured\target\classes;C:\Users\Tanveer Shaikh\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Tanveer Shaikh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Tanveer Shaikh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.1\jackson-databind-2.13.4.1.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Tanveer Shaikh\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Tanveer Shaikh\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Tanveer Shaikh\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tanveer Shaikh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Practice\EcommRestAssured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tanveer Shaikh\AppData\Local\Temp\surefire4101556644843998253\surefirebooter-20221121142158882_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="Tanveer Shaikh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Tanveer Shaikh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\TANVEE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="D:\Practice\EcommRestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-11.0.16\bin;C:\Users\Tanveer Shaikh\AppData\Local\Microsoft\WindowsApps;C:\Users\Tanveer Shaikh\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Login" classname="eComm.EcommApiTest" time="2.569">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "qq@yopmail.com",
+    "userPassword": "@A12345678a"
+}
+HTTP/1.1 200 OK
+Date: Mon, 21 Nov 2022 08:50:20 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 351
+ETag: W/"15f-pNpBgju+o2t4cTkwHGlPfB4LF2A"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwMjA2MjAsImV4cCI6MTcwMDU3ODIyMH0.2hxTGcWHzUYI-JAC1sqE-VYMjOnzXZUPsLyk4FUO6No",
+    "userId": "636b3758d7778f57972b5b1d",
+    "message": "Login Successfully"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwMjA2MjAsImV4cCI6MTcwMDU3ODIyMH0.2hxTGcWHzUYI-JAC1sqE-VYMjOnzXZUPsLyk4FUO6No
+636b3758d7778f57972b5b1d
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="AddProduct" classname="eComm.EcommApiTest" time="0.861">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=Mobile
+				productAddedBy=636b3758d7778f57972b5b1d
+				productCategory=fashion
+				productSubCategory=shirts
+				productPrice=12345
+				productDescription=Originals
+				productFor=men
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwMjA2MjAsImV4cCI6MTcwMDU3ODIyMH0.2hxTGcWHzUYI-JAC1sqE-VYMjOnzXZUPsLyk4FUO6No
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = TestCafe_Certificate.jpg
+				Content-Type: application/octet-stream
+
+				C:\Users\Tanveer Shaikh\Downloads\TestCafe_Certificate.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Mon, 21 Nov 2022 08:50:20 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-xJTJzEXmKhr69BoDAswKpcsEKNs"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "637b3bccd7778f579736af47",
+    "message": "Product Added Successfully"
+}
+637b3bccd7778f579736af47
+]]></system-out>
+  </testcase>
+  <testcase name="CreateOrder" classname="eComm.EcommApiTest" time="0.161">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwMjA2MjAsImV4cCI6MTcwMDU3ODIyMH0.2hxTGcWHzUYI-JAC1sqE-VYMjOnzXZUPsLyk4FUO6No
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "637b3bccd7778f579736af47"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Mon, 21 Nov 2022 08:50:21 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-qBDd8iV0EA98CpYtz9uiweELDas"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "637b3bcdd7778f579736af4d"
+    ],
+    "productOrderId": [
+        "637b3bccd7778f579736af47"
+    ],
+    "message": "Order Placed Successfully"
+}
+===============637b3bcdd7778f579736af4d
+]]></system-out>
+  </testcase>
+  <testcase name="ViewOrderDeatils" classname="eComm.EcommApiTest" time="0.159">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=637b3bcdd7778f579736af4d
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=[637b3bcdd7778f579736af4d]
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwMjA2MjAsImV4cCI6MTcwMDU3ODIyMH0.2hxTGcWHzUYI-JAC1sqE-VYMjOnzXZUPsLyk4FUO6No
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 21 Nov 2022 08:50:21 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 407
+ETag: W/"197-5S4fkcWz6fEzNDAhrvtoeCFFjuA"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "data": {
+        "_id": "637b3bcdd7778f579736af4d",
+        "orderById": "636b3758d7778f57972b5b1d",
+        "orderBy": "qq@yopmail.com",
+        "productOrderedId": "637b3bccd7778f579736af47",
+        "productName": "Mobile",
+        "country": "India",
+        "productDescription": "Originals",
+        "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1669020620331.jpg",
+        "orderPrice": "12345",
+        "__v": 0
+    },
+    "message": "Orders fetched for customer Successfully"
+}
+{"data":{"_id":"637b3bcdd7778f579736af4d","orderById":"636b3758d7778f57972b5b1d","orderBy":"qq@yopmail.com","productOrderedId":"637b3bccd7778f579736af47","productName":"Mobile","country":"India","productDescription":"Originals","productImage":"https://rahulshettyacademy.com/api/ecom/uploads/productImage_1669020620331.jpg","orderPrice":"12345","__v":0},"message":"Orders fetched for customer Successfully"}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteOrder" classname="eComm.EcommApiTest" time="0.1">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/637b3bccd7778f579736af47
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=637b3bccd7778f579736af47
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwMjA2MjAsImV4cCI6MTcwMDU3ODIyMH0.2hxTGcWHzUYI-JAC1sqE-VYMjOnzXZUPsLyk4FUO6No
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 21 Nov 2022 08:50:21 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
