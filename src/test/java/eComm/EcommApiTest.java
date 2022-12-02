@@ -30,6 +30,7 @@ public class EcommApiTest extends Specification {
 
 	@Test(priority = 0)
 	public void Login() throws FileNotFoundException {
+		
 		login = new LoginRequest();
 		login.setUserEmail("qq@yopmail.com");
 		login.setUserPassword("@A12345678a");
@@ -49,10 +50,10 @@ public class EcommApiTest extends Specification {
 	public void AddProduct() throws FileNotFoundException {
 
 		RequestSpecification createProduct = given().log().all().spec(request())
-				.header("authorization", token).param("productName", "Mobile").param("productAddedBy", userId)
+				.header("authorization", token).param("productName", "Shirt").param("productAddedBy", userId)
 				.param("productCategory", "fashion").param("productSubCategory", "shirts")
 				.param("productPrice", "12345").param("productDescription", "Originals").param("productFor", "men")
-				.multiPart("productImage", new File("C://Users//Tanveer Shaikh//Downloads//TestCafe_Certificate.jpg"));
+				.multiPart("productImage", new File("C://Users//Tanveer Shaikh//Desktop//Shirt.png"));
 
 		String addProductRes = createProduct.when().post("/api/ecom/product/add-product").then().log().all().extract()
 				.response().asString();

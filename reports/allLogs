@@ -17,7 +17,7 @@ Body:
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
 Proxy:			<none>
-Request params:	productName=Mobile
+Request params:	productName=Shirt
 				productAddedBy=636b3758d7778f57972b5b1d
 				productCategory=fashion
 				productSubCategory=shirts
@@ -27,15 +27,15 @@ Request params:	productName=Mobile
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwOTgyNDAsImV4cCI6MTcwMDY1NTg0MH0.i0-VM8DhJ53HSnFtelqw_7Qn2kE0mNpImyYqVgWRE9I
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2Njk5Nzg0MjQsImV4cCI6MTcwMTUzNjAyNH0.lQCpiXJM6AV3wYBi6lc5LZ8x3qnWT8nIHbeVGkeogfg
 				Accept=*/*
 				Content-Type=multipart/form-data
 Cookies:		<none>
 Multiparts:		------------
-				Content-Disposition: form-data; name = productImage; filename = TestCafe_Certificate.jpg
+				Content-Disposition: form-data; name = productImage; filename = Shirt.png
 				Content-Type: application/octet-stream
 
-				C:\Users\Tanveer Shaikh\Downloads\TestCafe_Certificate.jpg
+				C:\Users\Tanveer Shaikh\Desktop\Shirt.png
 Body:			<none>
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
@@ -44,7 +44,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwOTgyNDAsImV4cCI6MTcwMDY1NTg0MH0.i0-VM8DhJ53HSnFtelqw_7Qn2kE0mNpImyYqVgWRE9I
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2Njk5Nzg0MjQsImV4cCI6MTcwMTUzNjAyNH0.lQCpiXJM6AV3wYBi6lc5LZ8x3qnWT8nIHbeVGkeogfg
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -54,31 +54,31 @@ Body:
     "orders": [
         {
             "country": "India",
-            "productOrderedId": "637c6b010162f37cc2ef98c2"
+            "productOrderedId": "6389d93803841e9c9a48c0a0"
         }
     ]
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=637c6b010162f37cc2ef98c8
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=6389d93903841e9c9a48c0a4
 Proxy:			<none>
 Request params:	<none>
-Query params:	id=[637c6b010162f37cc2ef98c8]
+Query params:	id=[6389d93903841e9c9a48c0a4]
 Form params:	<none>
 Path params:	<none>
-Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwOTgyNDAsImV4cCI6MTcwMDY1NTg0MH0.i0-VM8DhJ53HSnFtelqw_7Qn2kE0mNpImyYqVgWRE9I
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2Njk5Nzg0MjQsImV4cCI6MTcwMTUzNjAyNH0.lQCpiXJM6AV3wYBi6lc5LZ8x3qnWT8nIHbeVGkeogfg
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
-Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/637c6b010162f37cc2ef98c2
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/6389d93803841e9c9a48c0a0
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	productId=637c6b010162f37cc2ef98c2
-Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjkwOTgyNDAsImV4cCI6MTcwMDY1NTg0MH0.i0-VM8DhJ53HSnFtelqw_7Qn2kE0mNpImyYqVgWRE9I
+Path params:	productId=6389d93803841e9c9a48c0a0
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzZiMzc1OGQ3Nzc4ZjU3OTcyYjViMWQiLCJ1c2VyRW1haWwiOiJxcUB5b3BtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjEyMzQ1Njc4OTAsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2Njk5Nzg0MjQsImV4cCI6MTcwMTUzNjAyNH0.lQCpiXJM6AV3wYBi6lc5LZ8x3qnWT8nIHbeVGkeogfg
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>

@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-22T11:55:42 IST" name="Suite" finished-at="2022-11-22T11:55:45 IST" duration-ms="3722">
+  <suite started-at="2022-12-02T16:25:30 IST" name="Suite" finished-at="2022-12-02T16:25:35 IST" duration-ms="4881">
     <groups>
     </groups>
-    <test started-at="2022-11-22T11:55:42 IST" name="Test" finished-at="2022-11-22T11:55:45 IST" duration-ms="3722">
+    <test started-at="2022-12-02T16:25:30 IST" name="Test" finished-at="2022-12-02T16:25:35 IST" duration-ms="4881">
       <class name="eComm.EcommApiTest">
-        <test-method signature="Login()[pri:0, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-11-22T11:55:42 IST" name="Login" finished-at="2022-11-22T11:55:44 IST" duration-ms="2550" status="PASS">
+        <test-method signature="Login()[pri:0, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-12-02T16:25:30 IST" name="Login" finished-at="2022-12-02T16:25:33 IST" duration-ms="3257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="AddProduct()[pri:1, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-11-22T11:55:44 IST" name="AddProduct" finished-at="2022-11-22T11:55:45 IST" duration-ms="809" status="PASS">
+        <test-method signature="AddProduct()[pri:1, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-12-02T16:25:33 IST" name="AddProduct" finished-at="2022-12-02T16:25:34 IST" duration-ms="1088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddProduct -->
-        <test-method signature="CreateOrder()[pri:2, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-11-22T11:55:45 IST" name="CreateOrder" finished-at="2022-11-22T11:55:45 IST" duration-ms="121" status="PASS">
+        <test-method signature="CreateOrder()[pri:2, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-12-02T16:25:34 IST" name="CreateOrder" finished-at="2022-12-02T16:25:34 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateOrder -->
-        <test-method signature="ViewOrderDeatils()[pri:3, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-11-22T11:55:45 IST" name="ViewOrderDeatils" finished-at="2022-11-22T11:55:45 IST" duration-ms="85" status="PASS">
+        <test-method signature="ViewOrderDeatils()[pri:3, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-12-02T16:25:34 IST" name="ViewOrderDeatils" finished-at="2022-12-02T16:25:35 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ViewOrderDeatils -->
-        <test-method signature="DeleteOrder()[pri:4, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-11-22T11:55:45 IST" name="DeleteOrder" finished-at="2022-11-22T11:55:45 IST" duration-ms="97" status="PASS">
+        <test-method signature="DeleteOrder()[pri:4, instance:eComm.EcommApiTest@481ba2cf]" started-at="2022-12-02T16:25:35 IST" name="DeleteOrder" finished-at="2022-12-02T16:25:35 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteOrder -->
